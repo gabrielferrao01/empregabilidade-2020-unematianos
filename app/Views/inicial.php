@@ -43,7 +43,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col text-center">
-                <h1 class="">ReAprender</h1>
+                <h1 class="h1">ReAprender</h1>
                 <p class="lead">Reaprendendo a trabalhar digitalmente</p>
                 <a class="btn btn-primary btn-lg btn-block" href="<?php echo base_url('../categorias') ?>" role="button"><i class="fas fa-book"></i></br>Estudar</a>
                 <a class="btn btn-primary btn-lg btn-block" href="" role="button"><i class="fas fa-university"></i></br>Ensinar</a>
@@ -55,7 +55,7 @@
         </div>
 
         <footer class="border-top text-center">
-            <small class="d-block mb-3 text-muted">Reaprender - Contato</small>
+            <small class="d-block mb-3 text-muted m-2">Reaprender - Contato</small>
         </footer>
     </div>
     <script src="https://kit.fontawesome.com/cafe4ad433.js" crossorigin="anonymous"></script>
