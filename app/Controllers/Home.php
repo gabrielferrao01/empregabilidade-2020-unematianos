@@ -9,7 +9,9 @@ class Home extends BaseController
 
 	public function index()
 	{
-		return view('inicial');
+		echo view('layout/topo');
+		echo view('inicial');
+		echo view('layout/footer');
 	}
 
 	public function categorias(){
@@ -17,8 +19,10 @@ class Home extends BaseController
 		$data = [
 			'categorias'=>$categorias->getCategorias()
 		];
-		helper('html');
-		return view('categorias',$data);
+
+		echo view('layout/topo');
+		echo view('aprender/categorias', $data);
+		echo view('layout/footer');
 	}
 
 	public function cursos($categoria = '2'){
@@ -26,10 +30,16 @@ class Home extends BaseController
 		$data = [
 			'cursos' => $cursos->getCursos($categoria)
 		];
-		helper('html');
-		return view('cursos', $data);
+		echo view('layout/topo');
+		echo view('aprender/cursos', $data);
+		echo view('layout/footer');
 	}
 
+	public function ensinar(){
+		echo view('layout/topo');
+		echo view('ensinar/ensinar');
+		echo view('layout/footer');
+	}
 	//--------------------------------------------------------------------
 
 }

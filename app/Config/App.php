@@ -21,7 +21,7 @@ class App extends BaseConfig
 	| environments.
 	|
 	*/
-	public $baseURL = 'http://reaprender.local/public';
+	public $baseURL = '';
 
 	/*
 	|--------------------------------------------------------------------------

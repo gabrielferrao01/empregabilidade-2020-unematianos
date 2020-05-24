@@ -33,6 +33,7 @@ $routes->setAutoRoute(true);
 $routes->get('/', 'Home::index');
 $routes->get('/categorias', 'Home::categorias');
 $routes->get('/cursos/(:num)', 'Home::cursos/$1');
+$routes->get('/ensinar', 'Home::ensinar');
 $routes->get('/moodle', '../moodle');
 
 /**
