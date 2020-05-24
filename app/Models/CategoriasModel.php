@@ -3,8 +3,6 @@
 namespace App\Models;
 use CodeIgniter\Model;
 
-use CodeIgniter\Database\ConnectionInterface;
-
 class CategoriasModel extends Model
 {
     protected $table = 'mdl_course_categories';
