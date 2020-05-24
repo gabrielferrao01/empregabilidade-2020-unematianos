@@ -8,7 +8,7 @@
                     <div class="card-body text-center">
                         <h5 class="card-title"><?php echo $curso['shortname'] ?></h5>
                         <p class="card-text"><?php echo $curso['fullname'] ?></p>
-                        <a href="<?php echo base_url('../moodle/course/view.php?id=' . $curso['id']) ?>" class="btn btn-primary"><i class="fas fa-door-open"></i> Selecionar</a>
+                        <a href="<?php echo base_url('../moodle/course/view.php?id=' . $curso['id']) ?>" class="btn btn-primary rounded-pill"><i class="fas fa-door-open"></i> Selecionar</a>
                     </div>
                 </div>
             </div>

@@ -8,7 +8,7 @@
                     <div class="card-body text-center">
                         <h5 class="card-title"><?php echo $categoria['name'] ?></h5>
                         <p class="card-text"><?php echo $categoria['description'] ?></p>
-                        <a href="<?php echo base_url('../cursos/' . $categoria['id']) ?>" class="btn btn-primary"><i class="fas fa-door-open"></i> Selecionar</a>
+                        <a href="<?php echo base_url('../cursos/' . $categoria['id']) ?>" class="btn btn-primary rounded-pill"><i class="fas fa-door-open"></i> Selecionar</a>
                     </div>
                 </div>
             </div>
