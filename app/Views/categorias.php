@@ -41,23 +41,13 @@
         <a class="btn btn-outline-primary" href="#">Entrar</a>
     </div>
     <div class="container-fluid">
-        <div class="row">
-            <div class="col text-center">
-                <h1 class="">ReAprender</h1>
-                <p class="lead">Reaprendendo a trabalhar digitalmente</p>
-                <a class="btn btn-primary btn-lg btn-block" href="#" role="button"><i class="fas fa-book"></i></br>Estudar</a>
-                <a class="btn btn-primary btn-lg btn-block" href="#" role="button"><i class="fas fa-university"></i></br>Ensinar</a>
-                <p class="text-justify">A ReAprender foca na preparação dos profissionais para o mercado de trabalho digital!</p>
-            </div>
-            <div class="col text-center">
-                <img src=<?php echo base_url('../images/imagem1.jpg') ?> class="img-fluid">
-            </div>
-        </div>
-
-        <footer class="border-top text-center">
-            <small class="d-block mb-3 text-muted">Reaprender - Contato</small>
-        </footer>
+        
     </div>
+
+    <footer class="border-top text-center">
+        <small class="d-block mb-3 text-muted">Reaprender - Contato</small>
+    </footer>
+
     <script src="https://kit.fontawesome.com/cafe4ad433.js" crossorigin="anonymous"></script>
 </body>
 

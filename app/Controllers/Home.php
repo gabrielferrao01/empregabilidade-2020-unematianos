@@ -2,9 +2,10 @@
 
 class Home extends BaseController
 {
+	protected $helpers = ['html'];
+
 	public function index()
 	{
-		helper('html');
 		return view('inicial');
 	}
 

@@ -31,7 +31,7 @@
         }
     </style>
     <!-- Custom styles for this template -->
-    <link href=<?php echo base_url('../css/pricing.css') ?> rel="stylesheet">
+    <?php echo link_tag('../css/pricing.css'); ?>
 
 </head>
 
@@ -45,12 +45,12 @@
             <div class="col text-center">
                 <h1 class="">ReAprender</h1>
                 <p class="lead">Reaprendendo a trabalhar digitalmente</p>
-                <a class="btn btn-primary btn-lg btn-block" href="#" role="button"><i class="fas fa-book"></i></br>Estudar</a>
-                <a class="btn btn-primary btn-lg btn-block" href="#" role="button"><i class="fas fa-university"></i></br>Ensinar</a>
-                <p class="text-justify">A ReAprender foca na preparação dos profissionais para o mercado de trabalho digital!</p>
+                <a class="btn btn-primary btn-lg btn-block" href="<?php echo base_url('../categorias') ?>" role="button"><i class="fas fa-book"></i></br>Estudar</a>
+                <a class="btn btn-primary btn-lg btn-block" href="" role="button"><i class="fas fa-university"></i></br>Ensinar</a>
+                <p class="text-justify p-3">A ReAprender foca na preparação dos profissionais para o mercado de trabalho digital!</p>
             </div>
             <div class="col text-center">
-                <img src=<?php echo base_url('../images/imagem1.jpg') ?> class="img-fluid">
+                <img src=<?php echo base_url('../images/imagem1.jpg') ?> class="img-fluid rounded p-2">
             </div>
         </div>
 
